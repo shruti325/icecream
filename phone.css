@@ -1,16 +1,20 @@
 #navbar{
     flex-direction: column;
 }
+
 #navbar ul li a{
     font-size: 0.9rem;
     padding: 0px 5px;
 }
+
 #home{
     height: 200px;
 }
+
 #home::before{
     height: 400px;
 }
+
 #card{
     flex-direction: column;
 }
