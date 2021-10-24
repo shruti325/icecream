@@ -1,3 +1,6 @@
+:root{
+    --card-bg-height: 1024px
+}
 #navbar{
     flex-direction: column;
 }
@@ -17,4 +20,5 @@
 
 #card{
     flex-direction: column;
+    height: var(--card-bg-height);
 }
