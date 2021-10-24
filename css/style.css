@@ -38,14 +38,14 @@ body{
     border-radius: 20px;
     text-decoration: none;
     padding: 5px 16px;
-    color: black;
+    color: rgb(20, 20, 20);
     position: relative;
     /* left: 160px; */
     font-size: 1rem;
 }
 
 #navbar ul li a:hover{
-    color: rgba(17, 14, 14, 0.973);
+    color: rgba(17, 14, 14, 0.96);
     background-color: white;
 }
 
@@ -106,9 +106,6 @@ body{
     cursor: pointer;
     width: 160px;
     height: 40px;
-    /* position: relative; */
-    /* top: 168px; */
-    /* left: 440px; */
 }
 
 .btn:hover{
@@ -121,18 +118,12 @@ body{
 .hfirst{
     font-size: 3.2rem;
     padding: 3px 6px;
-    /* position: relative;
-    top: 140px; */
-     
 }
 .pfirst{
     font-size: 1.8rem;
-    /* position: relative;
-    top: 155px; */
 }
+
 .hsecond{
-    /* position: relative; */
-    /* top: 333px; */
     font-size: 1.5rem;
     padding: 6px;
     text-align: center;
@@ -174,8 +165,6 @@ body{
 }
 
 #card .box h4{
-    /* position: relative; */
-    /* top: -8px; */
     margin-top: 16px;
     font-family: 'Rubik', sans-serif;
 }
@@ -203,8 +192,6 @@ body{
 /* contact */
 
 #contact{
-    /* position: relative; */
-    /* top: 270px; */
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -258,7 +245,6 @@ body{
 .btn2{
     color: white;
     background-color: black;
-    /* border: 2px solid; */
     border-style: none;
     width: 100px;
     height: 40px;
